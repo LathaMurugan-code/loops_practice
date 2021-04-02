@@ -1,0 +1,19 @@
+package practice;
+
+public class Task2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int no =0;
+		while(no<10)
+		{
+			no++;
+			if(no==3||no==6||no==9)
+				continue;
+			System.out.println(no);
+			
+		}
+
+	}
+
+}
