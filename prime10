@@ -1,0 +1,30 @@
+private void primeNumbers10() {
+    // TODO Auto-generated method stub
+    int no = 2; 
+    int primeCount=0; 
+    while(true){
+    int i = 2; 
+    int divisors = 0 ; 
+    if(no==2)
+      System.out.println("Prime " + no);
+    else {
+    while(i<no)
+    {
+    if(no%i==0)
+    {
+    //System.out.println("Not Prime"); 
+    divisors++; 
+    break; 
+    }
+    i++; 
+    }
+    if(divisors==0){
+    System.out.println("Prime no. is "+ no);
+    primeCount++; 
+    if(primeCount==10)
+      break;
+    }
+    no++; 
+    }
+    }
+    }
